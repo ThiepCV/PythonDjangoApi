@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %} My Homepage {% endblock %}
+
+{% block header %}
+<center>
+    <h1> This is Home Header </h1>
+</center>
+{% endblock %}
+
+{% block content %}
+<h2>body content</h2>
+<h2>Logged of {{ user }}</h2>
+<p>Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit.
+    In a enim turpis. Ut porttitor
+    diam libero, quis tincidunt
+    orci convallis posuere.
+    Aenean augue nunc, blandit nec lacus
+    in, pharetra porttitor lacus.
+    Suspendisse enim ante, placerat vitae
+</p>
+{% endblock %}
+
+
+{% block footer %}
+<center>
+    <h1>This is Footer</h1>
+</center>
+{% endblock %}

@@ -1,0 +1,11 @@
+<h1>Student List</h1>
+<ul>
+    {% for student in students %}
+    
+   <li>
+    <a href="detail/{{student.pk}}">{{student.firstName }} {{student.lastName}}</a>
+   </li> 
+    {% endfor %}
+</ul>
+
+   <a href="students/create"><input type="submit" value="Create" ></a> 

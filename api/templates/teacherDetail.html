@@ -1,0 +1,11 @@
+<h1>{{ teacher.name }}</h1>
+<h2>
+    Cousers tuaght by  {{ teacher.name }}
+    
+</h2>
+<ul>   
+    {% for course in courses %}
+        <li>{{ course.title }}</li>
+      
+    {% endfor %}
+</ul>

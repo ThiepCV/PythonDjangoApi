@@ -1,0 +1,9 @@
+<h1>Delete Student</h1>
+<p> Are u sure to delete {{ student.firstName}}-{{ student.lastName }}</p>
+<form action="" method="post">
+    {% csrf_token %}
+    <input type="submit" value="Delete">
+</form>
+<br>
+
+<a href="students">Cancel</a>
